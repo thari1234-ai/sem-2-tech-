@@ -1,0 +1,7 @@
+import re
+word='simple regular press expression example'
+result=re.findall('press',word)# it will check the press in that statement 
+print(result)
+
+space=re.search('\s',word)# it will check the space and return the index of that space 
+print('\n The first space is at:',space.start())
